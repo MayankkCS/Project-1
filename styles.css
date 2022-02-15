@@ -1,0 +1,179 @@
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#features {
+  background-color: white;
+  z-index: 1;
+  align-content: center;
+  padding: 15% 15%;
+  font-size: 20px;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+  padding: 8% 15%;
+  font-family: Montserrat-bolder;
+  font-weight: 800;
+  line-height: 2px;
+  font-size: 30px;
+}
+
+#footer {
+  text-align: center;
+  padding: 8% 15% 1%;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 3% 10% 7%;
+}
+
+.row {
+  padding: 10px 10px 10px 2px;
+  margin-bottom: 2px;
+}
+
+h1 {
+  font-family: "Montserrat-bolder", "sans-serif";
+  size: 18rem;
+  line-height: 1;
+  font-weight: 900;
+  font-size: 65px;
+  padding-top: 20px;
+}
+
+h2 {
+  font-family: "Montserrat-bolder";
+  line-height: 3rem;
+  font-size: 2.5rem;
+  font-weight: 300px;
+  color: #fff;
+}
+
+body {
+  font-family: "Montserrat";
+  font-weight: bolder;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat-Light";
+  font-size: 1.2rem;
+}
+
+.button-download {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  margin-left: 50px;
+}
+
+h3 {
+  font-weight: bolder;
+  font-family: "Ubuntu";
+}
+
+.feat {
+  padding: 0 2%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+}
+
+.carousel-item {
+  padding: 8% 15%;
+}
+
+.test-img {
+  margin: 20px;
+  border-radius: 100%;
+  width: 20%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 4%;
+}
+
+.press-photo {
+  margin: 3px 16px;
+  width: 13%;
+}
+
+#pricing {
+  text-align: center;
+  padding: 8% 15%;
+  color: #000000;
+}
+
+.pricing-table {
+  padding: 3% 2%;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-family: Montserrat-bolder;
+  font-size: 200%;
+  font-weight: 3.5rem;
+}
+
+@media (max-width :980px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+.footer-icon {
+  margin: 0px 3px;
+}
+
+.footer-icon:hover {
+  color: #911F27;
+}
+
+.cta-heading {
+  font-size: 3.5rem;
+}
